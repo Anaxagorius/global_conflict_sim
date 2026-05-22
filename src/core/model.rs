@@ -31,3 +31,9 @@ impl WorldState {
         }
     }
 }
+
+impl Default for WorldState {
+    fn default() -> Self {
+        Self::new()
+    }
+}
